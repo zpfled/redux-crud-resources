@@ -1,0 +1,19 @@
+{
+  "presets": [
+    "es2015",
+    "stage-1"
+  ],
+  "plugins": [
+    "transform-strict-mode",
+    "transform-class-properties"
+  ],
+  "env": {
+    "node": {
+      "plugins": [
+        [
+          "transform-require-ignore"
+        ]
+      ]
+    }
+  }
+}
