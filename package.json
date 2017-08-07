@@ -6,7 +6,7 @@
   "scripts": {
     "clean": "rimraf dist lib",
     "prebuild": "npm run clean",
-    "lib-build": "babel index.js --out-dir lib",
+    "lib-build": "babel src --out-dir lib",
     "build": "npm run lib-build",
     "lint": "eslint --cache --fix --ext .js --ext .js src",
     "test": "nyc --all mocha --recursive -R nyan --compilers js:babel-register",
