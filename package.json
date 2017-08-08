@@ -28,6 +28,10 @@
     "react",
     "boilerplate"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zpfled/redux-crud-resources.git"
+  },
   "author": "Zach Pflederer",
   "license": "ISC",
   "dependencies": {
